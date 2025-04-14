@@ -7,7 +7,6 @@ header,footer{
     background-color: #1F2937;
     color: whitesmoke;
     padding: 10px;
-
 }
 
 header .header-logo{
@@ -25,6 +24,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    flex-wrap: wrap;
+    
 
 }
 ul{
@@ -39,9 +40,10 @@ ul{
     justify-content: space-around;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .header-content>div{
-    width: 50%;
+    width: 400px;
 }
 .header-banner{
     display: flex;
@@ -58,4 +60,64 @@ header button{
     color: whitesmoke;padding:5px 15px;
     border-radius: 0.5em;
     font-weight: 600;
+}
+section{
+    padding: 20px;
+}
+section h2{
+    width: fit-content;
+    margin: 5px auto;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.card{
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.card img{
+    border: 2px solid salmon;
+    border-radius: 1em;
+}
+.testimonial{
+    font-weight: 100;
+    padding: 2em 4em;
+    font-size: 28px;
+    background-color: rgb(201, 240, 240);
+    margin:1em -0.7em 1em -0.7em;
+    display: flex;
+    flex-direction: column;
+
+}
+.testimonial b{
+    display: inline-block;
+    align-self: flex-end;
+}
+.prompt{
+    margin: 2em auto;
+    background-color: rgb(9, 155, 155);
+    color: whitesmoke;
+    width: 80%;
+    padding: 2em 4em;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    gap:5px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.prompt button{
+    margin-left: auto;
+    color: antiquewhite;
+    padding: 0.5em 3em;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
 }
