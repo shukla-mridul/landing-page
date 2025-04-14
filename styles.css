@@ -121,3 +121,7 @@ section h2{
     border: 2px solid whitesmoke;
     border-radius: 8px;
 }
+footer{
+    text-align: center;
+    padding: 1em;
+}
